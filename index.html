@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="calc.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Tip Calculator</title>
+  </head>
+  <body>  
+    <div class="container well">
+      <h1 class="tip-well">A Simple Tip Calc.</h1>
+      <div class="inputset">
+        <strong>How much was your bill?</strong>
+        <input type="text" id="bill" placeholder="Bill Amount" />
+      </div>
+      <div class="inputset">
+        <strong>How was service?</strong>
+        <select id="rating">
+          <option value="5">5 Stars - Great</option>
+          <option value="4">4 Stars - Good</option>
+          <option value="3">3 Stars - Ok</option>
+          <option value="2">2 Stars - Bad</option>
+          <option value="1">1 Star - Terrible</option>
+        </select>
+      </div>
+      <div class="inputset">
+        <strong> How many are with you? </strong> 
+        <input type="text" id="people" placeholder="Number of People" />
+      </div>
+      <div id="submitBtn" class="text-center">
+        <button class="btn btn-dark btn-lg" type="button" onclick="runCalc()">
+          Submit
+        </button>
+      </div>
+
+      <div id="result" class="text-center">$ #.##</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+.container {
+  width: 450px;
+  height: 750px;
+}
+body {
+  background-color: #5b1515;
+}
+input {
+  padding: 5px;
+  width: 150px;
+}
+select {
+  margin: 6px;
+  padding: 10px;
+  width: 200px;
+}
+.tip-well {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #cdb8b8;
+  border: 2px solid #360c0c;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.well {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #eee7e7;
+  border: 5px solid #240808;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.inputset {
+  padding: 10px;
+}
+#submitBtn {
+  padding: 25px;
+  margin: 10px;
+}
